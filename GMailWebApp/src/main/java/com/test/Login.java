@@ -45,7 +45,6 @@ public class Login extends HttpServlet {
 				out.println("<center><h3><font color='black'> Login failed.</font> </h3></center>");
 				RequestDispatcher rd = request.getRequestDispatcher("register.html");
 				rd.include(request, response);
-
 			}
 
 		} catch (Exception e) {
